@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <div class="container">
+        <div class="calc-container">
+            <form id="calc-form">
+                <input type="text" id="showItem" autocomplete="off" autofocus="on"/>
+                <div class="btns">
+                    <button type="button" data-filter="sqroot" class="btn">(</button>
+                    <button type="button" data-filter="sqr" class="btn">)</button>
+                    <button type="button" data-filter="clear" class="btn">CE</button>
+                    <button type="button" data-filter="divide" class="btn">/</button>
+                    <button type="button" data-filter="7" class="btn">7</button>
+                    <button type="button" data-filter="8" class="btn">8</button>
+                    <button type="button" data-filter="9" class="btn">9</button>
+                    <button type="button" data-filter="multiply" class="btn">*</button>
+                    <button type="button" data-filter="4" class="btn">4</button>
+                    <button type="button" data-filter="5" class="btn">5</button>
+                    <button type="button" data-filter="6" class="btn">6</button>
+                    <button type="button" data-filter="plus" class="btn">+</button>
+                    <button type="button" data-filter="1" class="btn">1</button>
+                    <button type="button" data-filter="2" class="btn">2</button>
+                    <button type="button" data-filter="3" class="btn">3</button>
+                    <button type="button" data-filter="-" class="btn">-</button>
+                    <button type="button" data-filter="delete" class="btn">DE</button>
+                    <button type="button" data-filter="0" class="btn">0</button>
+                    <button type="button" data-filter="decimal" class="btn">.</button>
+                    <button type="submit" data-filter="equals" class="btn">=</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

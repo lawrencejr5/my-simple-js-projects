@@ -1,0 +1,91 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    height: 85vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.slide-container{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    border: 5px solid #012345;
+    overflow: hidden;
+}
+.btn-container{
+    margin-top: -16rem;
+}
+.btn{
+    padding: .2rem .5rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn:nth-child(1){
+    background-color: rgb(255, 30, 0);
+}
+.btn:nth-child(2){
+    background-color: rgb(12, 218, 12);
+}
+.slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.slide img{
+    object-fit: cover;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .slide:nth-child(1){
+    left: 0%;
+}
+.slide:nth-child(2){
+    left: 100%;
+}
+.slide:nth-child(3){
+    left: 200%;
+}
+.slide:nth-child(4){
+    left: 300%;
+}
+.slide:nth-child(5){
+    left: 400%;
+} */
+
+/* .slide{
+    transform: translateX(-200%);
+} */

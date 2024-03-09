@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Js Video Background</title>
+</head>
+
+<body>
+    <div class="preloader-container">
+        <div class="preloader"></div>
+    </div>
+    <video class="vid-container" autoplay muted>
+        <source src="vid.mp4">
+    </video>
+    <div class="text-container">
+        <h1>One Piece Ep 1016</h1>
+        <div class="btn-container">
+            <button class="btn pause" data-id="pause">
+                <img src="pause.png" alt="">
+            </button>
+            <button class="btn play" data-id="play">
+                <img src="play.png" alt="">
+            </button>
+            <button class="btn">
+                <img id="reload" src="reload.png" alt="">
+            </button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

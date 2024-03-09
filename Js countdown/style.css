@@ -1,0 +1,51 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 2rem;
+    justify-content: center;
+}
+.container .activate{
+    background-color: #012345;
+    color: white;
+    padding: .4rem .5rem;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.container .img{
+    width: 320px;
+    height: 200px;
+    margin-right: 3rem;
+}
+.container .content{
+    width: 700px;
+}
+.container .content h2{
+    color: #012345;
+}
+.container .content h5{
+    color: #123456;
+}
+.container .content p{
+    color: #234567;
+}
+.container .content .time-remaining{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.container .time-remaining .time-container{
+    background-color: #012345;
+    padding: 1rem 1rem;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+}.container .time-remaining .time-container b{
+    display: block;
+}

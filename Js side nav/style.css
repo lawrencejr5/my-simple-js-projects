@@ -1,0 +1,90 @@
+body{
+    background-color: #000000;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .5s;
+}
+
+.nav{
+    width: 100%;
+    background-color: white;
+}
+.nav .wide-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid black;
+}
+.nav .wide-nav .bars{
+    margin-right: 1rem;
+    width: 2rem;
+    cursor: pointer;
+    transition: 1s;
+}
+.nav .wide-nav .close{
+    display: none;
+    margin-right: 1rem;
+    width: 2rem;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.nav .wide-nav img:hover{
+    rotate: 180deg;
+
+}
+.nav .logo{
+    font-weight: 600;
+    color: black;
+    font-size: 22px;
+    margin-left: 1rem;
+}
+.nav-items ul{
+    list-style-type: none;
+    display: flex;
+}
+.nav-items ul li{
+    margin-right: 1rem;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.nav-items ul li .active{
+    border: 1px solid black;
+    padding: .5rem;
+}
+.side-nav{
+    position: fixed;
+    height: 100vh;
+    background-color: white;
+    color: black;
+    width: 400px;
+    top: 61px;
+    left: 0;
+    z-index: 1;
+    translate: -100%;
+    transition: .5s;
+}
+.side-nav ul{
+    list-style-type: none;
+}
+.side-nav ul li{
+    font-weight: 600;
+    margin: .3rem;
+}
+.open-side-nav{
+    translate: 0;
+}
+
+@media only screen and (max-width: 600px){
+    .nav-items{
+        display: none;
+    }
+    .side-nav{
+        width: 100%;
+    }
+}

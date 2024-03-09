@@ -1,0 +1,45 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container .header{
+    text-align: center;
+}
+.content{
+    display: flex;
+    margin: 3rem 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content .img{
+    max-width: 350px;
+    height: auto;
+    margin: 0 2rem;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+.content .context{
+    max-width: 600px;
+    background-color: white;
+    padding: .2rem 1rem;
+}
+.content .r-container .btns{
+    display: flex;
+}
+.content .r-container button{
+    background-color: rgb(225, 223, 223);
+    border: none;
+    color: black;
+    padding: .5rem 1rem;
+    margin: 0;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .5s;
+}
+.content .r-container button:hover{
+    background-color: rgb(180, 177, 177);
+}
+.content .r-container .active{
+    background-color: white;
+}
+

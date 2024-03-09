@@ -1,0 +1,83 @@
+body{
+    background-color: #000000;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .5s;
+}
+
+.nav{
+    width: 100%;
+    background-color: white;
+}
+.nav .wide-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid black;
+}
+.nav .wide-nav img{
+    margin-right: 1rem;
+    width: 2rem;
+    cursor: pointer;
+    display: none;
+}
+.nav .logo{
+    font-weight: 600;
+    color: black;
+    font-size: 22px;
+    margin-left: 1rem;
+}
+.nav-items ul{
+    list-style-type: none;
+    display: flex;
+}
+.nav-items ul li{
+    margin-right: 1rem;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.nav-items ul li .active{
+    border: 1px solid black;
+    padding: .5rem;
+}
+.mobile-nav{
+    color: black;
+    background-color: white;
+    height: 0px;
+    transition: .5s;
+}
+.mobile-nav ul{
+    list-style-type: none;
+    padding: .5rem;
+    display: none;
+}
+.open-nav{
+    height: 172px;
+}
+.open-nav ul{
+    display: block;
+}
+.mobile-nav ul li{
+    margin: .5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.mobile-nav ul li:hover{
+    color: #012345;
+    text-shadow: 1px 1px 1px grey;
+    transition: .5s;
+}
+
+
+@media only screen and (max-width: 600px){
+    .nav-items{
+        display: none;
+    }
+    .nav .wide-nav img{
+        display: block;
+    }
+}

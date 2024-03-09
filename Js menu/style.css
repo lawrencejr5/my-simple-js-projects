@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./img/4757829.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .5s;
+}
+
+.nav{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.nav .logo{
+    font-weight: 600;
+    color: black;
+    font-size: 22px;
+    margin-left: 1rem;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+}
+.nav ul a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.nav ul li{
+    margin-right: 1rem;
+}
+.nav ul li .active{
+    border: 1px solid black;
+    padding: .5rem;
+}
+.content{
+    margin: 0 3rem;
+}
+.content .btn-container{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.btn-container .filter-btn{
+    background-color: white;
+    margin: 0 1rem;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    padding: .3rem .4rem;
+    border-radius: 3px;
+    box-shadow: 1px 1px 8px rgb(178, 175, 175);
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.menu-items{
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu-items .menu-item{
+    width: 250px;
+    height: auto;
+    background-color: white;
+    color: black;
+    padding: .5rem;
+    border-radius: 5px;
+    margin: 1rem;
+}
+.menu-items .menu-item span{
+    font-size: 14px;
+}

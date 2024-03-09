@@ -1,0 +1,61 @@
+body{
+    /* background-color: aliceblue; */
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(back-to-school-6305131.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calc-container{
+    width: 500px;
+    height: 600px;
+    background-color: black;
+    border: 2px solid #012345;
+    border-radius: 5px;
+}
+.calc-container #showItem{
+    width: 496px;
+    height: 100px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #012345;
+    font-size: 50px;
+    color: black;
+    text-align: right;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: white;
+}
+.calc-container .btns{
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.calc-container .btns button{
+    padding: 1.63rem;
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+    font-size: 40px;
+    border: none;
+    border-right: 1px solid #012345;
+    border-bottom: 1px solid #012345;
+    transition: .5s ease-in-out;
+    box-shadow: 1px 1px 8px whitesmoke;
+    border-radius: 5px;
+}
+.calc-container .btns button:hover{
+    background-color: white;
+    color: black;
+}

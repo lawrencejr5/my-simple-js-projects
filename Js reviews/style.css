@@ -1,0 +1,69 @@
+body{
+    background-color: #000000;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .5s;
+}
+
+.nav{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.nav .logo{
+    font-weight: 600;
+    color: black;
+    font-size: 22px;
+    margin-left: 1rem;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+}
+.nav ul a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.nav ul li{
+    margin-right: 1rem;
+}
+.nav ul li .active{
+    border: 1px solid black;
+    padding: .5rem;
+}
+.content{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content .review-box{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    color: black;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px white;
+    transition: .5s;
+}
+.content .review-box img{
+    border-radius: 7px;
+}
+.content .review-box button{
+    margin: 0 .7rem;
+    cursor: pointer;
+}
+.content .review-box .random{
+    background-color: transparent;
+    border: 1px solid #000;
+}
